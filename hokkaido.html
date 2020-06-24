@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Konnichiwa Japan</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		
+		<style>
+		.leftcolumn {   
+		  float: left;
+		  width: 85%;
+		}
+
+		/* Add a card effect for articles */
+		.card {
+		  background-color: white;
+		  padding: 40px;
+		  margin-top: 20px;
+		  margin-left: 150px;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		.container1 {
+		  position: relative;
+		  width: 50%;
+		  max-width: 300px;
+		  padding:10px
+		}
+
+		.image {
+		  display: block;
+		  width: 100%;
+		  height: 105%;
+		}
+
+		.overlay1 {
+		  position: absolute; 
+		  bottom: 0; 
+		  background: rgb(0, 0, 0);
+		  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		  color: #f1f1f1; 
+		  width: 93%;
+		  transition: .5s ease;
+		  opacity:0;
+		  color: white;
+		  font-size: 20px;
+		  padding: 20px;
+		  text-align: center;
+		
+		}
+
+		.container1:hover .overlay1 {
+		  opacity: 1;
+		}
+		
+		.collapsible1 {
+		  background-color: #777;
+		  color: white;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.active1, .collapsible1:hover {
+		  background-color: #555;
+		}
+
+		.content1 {
+		  padding: 0 18px;
+		  display: none;
+		  overflow: hidden;
+		  background-color: #f1f1f1;
+		}
+		
+		.collapsible1:after {
+		  content: '\002B';
+		  color: white;
+		  font-weight: bold;
+		  float: right;
+		  margin-left: 5px;
+		}
+
+		.active1:after {
+		  content: "\2212";
+		}
+
+		</style>
+		
+		<body>
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">
+				<!-- Start Header Area -->
+				<header class="default-header">
+					<nav class="navbar navbar-expand-lg  navbar-light">
+						<div class="container">
+							  <a class="navbar-brand" href="index.html">
+							  	<img src="img/logo1.png" alt="">
+							  </a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="text-white lnr lnr-menu"></span>
+							  </button>
+
+							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+							    <ul class="navbar-nav">
+									<li><a href="home.html">Home</a></li>
+									<li><a href="info.html">Info</a></li>
+									<li class="dropdown">
+								      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								        Travel
+								      </a>
+								      <div class="dropdown-menu">
+								        <a class="dropdown-item" href="tokyo.html">Tokyo</a>
+								        <a class="dropdown-item" href="osaka.html">Osaka</a>
+										<a class="dropdown-item" href="hokkaido.html">Hokkaido</a>
+								      </div>
+								    </li>								
+									<li><a href="faq.html">Faq</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="login.php">Login</a></li>
+									
+							    </ul>
+							  </div>						
+						</div>
+					</nav>
+				</header>
+				<!-- End Header Area -->				
+			</section>
+
+			<section class="default-banner active-blog-slider">
+					<div class="item-slider relative" style="background: url(img/slider14.jpg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover the White Hokkaido</h4>
+										<h1 class="text-uppercase text-white">Hokkaido</h1>
+										<p class="text-white">From tropical scuba-diving to a samurai festival and skiing in perfect powder, <br>
+										these adventures are as varied as Japan’s climate.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="item-slider relative" style="background: url(img/slider13.png);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover the White Hokkaido</h4>
+										<h1 class="text-uppercase text-white">Hokkaido</h1>
+										<p class="text-white">Each season boasts different highlights such as the cherry blossoms blooming,<br>
+										Mt Fuji, the leaves changing colors and of course ski season in the winter.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</section>
+				
+				<!-- Start location Area -->
+			<section class="faq-area section-gap" id="faq">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Destinations</h1>
+								<p>Explore different locations of Hokkaido to your desire.</p>
+							</div>
+						</div>
+					</div>							
+					<div class="row justify-content-center d-flex">
+						<div class="row">
+						  <div class="leftcolumn">
+							<div class="card">
+							  <h2 style="margin-bottom: 20px; margin-left: 20px;">Lake Toya</h2>
+							  <img src="img/hok1.jpg" alt="hok1" width="400" height="300" style="padding:20px;">
+							  <p style="margin-left: 20px;">Scenic lake with lodging, sculptures & shrines along its shores & a wooded island in its center.<br>
+							  Address: Toyakoonsen, Toyako, Abuta District, Hokkaido 049-5721, Japan <br> Official Website:  
+							  <a href="http://www.town.toyako.hokkaido.jp/tourism/"> town.toyako.hokkaido.jp</a>
+							  </p>
+							  <a href="https://goo.gl/maps/JxufPKzk2NzdfG4XA" style="margin-left: 20px;">Map Directions</a>
+							</div>
+							<div class="card">
+							  <h2 style="margin-bottom: 20px; margin-left: 20px;">Biei</h2>
+							  <img src="img/hok2.jpg" alt="hok2" width="400" height="300" style="padding:20px;">
+							  <p style="margin-left: 20px;">Reachable by a short hike, this manmade pond draws nature lovers for its blue hue & tranquility.<br>
+							  Address: Shirogane, Biei, Kamikawa District, Hokkaido 071-0235, Japan <br> Official Website:  
+							  <a href="https://www.biei-hokkaido.jp/ja/sightseeing/shirogane-blue-pond/"> biei-hokkaido.jp</a>
+							  </p>
+							  <a href="https://goo.gl/maps/C3yxaib61AvokFrz7" style="margin-left: 20px;">Map Directions</a>
+							</div>
+							<div class="card">
+							  <h2 style="margin-bottom: 20px; margin-left: 20px;">Sapporo</h2>
+							  <img src="img/hok3.jpg" alt="hok3" width="400" height="300" style="padding:20px;">
+							  <p style="margin-left: 20px;">Stadium known for a retractable grass surface to allow for soccer as well as NPB baseball games.<br>
+							  Address: 1 Hitsujigaoka, Toyohira Ward, Sapporo, Hokkaido 062-0045, Japan <br> Official Website:  
+							  <a href="https://www.sapporo-dome.co.jp/"> sapporo-dome.co.jp</a>
+							  </p>
+							  <a href="https://goo.gl/maps/guXZuLknVGLqXE8YA" style="margin-left: 20px;">Map Directions</a>
+							</div>
+							<div class="card">
+							  <h2 style="margin-bottom: 20px; margin-left: 20px;">Niseko</h2>
+							  <img src="img/hok4.jpg" alt="hok4" width="400" height="300" style="padding:20px;">
+							  <p style="margin-left: 20px;">Mountain getaway with skiing & snowboarding, plus elegant accommodations, hot springs & spas.<br>
+							  Address: Japan, 048-1592 Hokkaido, Higashiyama<br> Official Website:  
+							  <a href="http://www.niseko-village.com/ja/white/mountain.html"> niseko-village.com</a>
+							  </p>
+							  <a href="https://goo.gl/maps/DXspEf4KsVyX3QFw8" style="margin-left: 20px;">Map Directions</a>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End location Area -->
+			
+			<!-- Start food Area -->
+			<section class="project-area section-gap" id="project">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-30 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10"> Food & Beverages </h1>
+								<p>Enjoy the different food culture of Hokkaido.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-center d-flex">
+						<div class="container1">
+						  <img src="img/food13.jpg" alt="food1" class="image">
+						  <div class="overlay1">Soba</div>
+						</div>
+						<div class="container1">
+						  <img src="img/food14.jpg" alt="food2" class="image">
+						  <div class="overlay1">Soup Curry</div>
+						</div>
+						<div class="container1">
+						  <img src="img/food15.jpg" alt="food3" class="image">
+						  <div class="overlay1">Seafood</div>
+						</div>
+						<div class="container1">
+						  <img src="img/food16.jpg" alt="food4" class="image">
+						  <div class="overlay1">Sea Urchin</div>
+						</div>
+						<div class="container1">
+						  <img src="img/food17.jpg" alt="food5" class="image">
+						  <div class="overlay1">Genghis Khan</div>
+						</div>
+						<div class="container1">
+						  <img src="img/food18.jpg" alt="food6" class="image">
+						  <div class="overlay1">Sapporo Beer</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End food Area -->
+			
+			<!-- Start info Area -->
+			<section class="faq-area section-gap" id="faq">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">More Info</h1>
+								<p>Explore more about Hokkaido and indulge in the culture.</p>
+							</div>
+						</div>
+					</div>							
+					<div class="row justify-content-center d-flex">
+						<button type="button" class="collapsible1">Things to Do</button>
+							<div class="content1">
+							  <p><br>Otaru City is a small harbour city along Ishikari Bay. It’s a popular side trip destination from Sapporo City, and can be accessed by train within 1 hour. Otaru is best known for its beautiful cityscape with the preserved canal area and old warehouses from 19th century.
+								Otaru Snow Light Path is a popular snow festival held every February at Otaru City, featuring lights and snow lanterns lit up the city at night. In 2020, Otaru Snow Light Path will be held from 8 to 16 February. </p>
+							</div>
+							
+						<button type="button" class="collapsible1">Shopping & Style</button>
+							<div class="content1">
+							  <p><br>Hakodate City is the southernmost city of Hokkaido and a popular tourist destination. The city has an unique culture influenced by western countries and the beautiful cityscape. Also the night view of the city gazed from Mt Hakodate is counted as one of the the most beautiful night views in Japan along with Kobe and Nagasaki. Hakodate City is now accessible by Shinkansen (bullet train) from Tokyo or by airplane.
+							 </p>
+							</div>
+						<button type="button" class="collapsible1">Restaurants & Cafe</button>
+							<div class="content1">
+							  <p><br>As all we know, the best thing about Hokkaido is seafood. Great fresh seafood dishes are sold at markets in almost every cities apart from central area of Hokkaido. Also Hokkaido consume a lot of lamb meat comparing to other prefectures. Jingisukan is one of the best known dishes in Hokkaido, which is grill lamb with vegetables on a special iron plate. Ramen is also very popular dish in Hokkaido and many cities has their own local ramens. When in Sapporo, try their Sapporo miso Ramen.  </p>
+							</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End info Area -->
+				
+				<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>About Us</h6>
+								<p>
+									Plans seek to deliver transport and related benefits to the community as well as some more direct benefits.
+								</p>
+								
+            		<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+            		
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Newsletter</h6>
+								<p>Stay update with our latest <br> We try to serve you our best <br> Contact us ur needs</p>
+								
+								</div>
+						</div>						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Follow Us</h6>
+								<p>Let us be social</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+									
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/slick.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/waypoints.min.js"></script>		
+			<script src="js/main.js"></script>
+			<script>
+			var coll = document.getElementsByClassName("collapsible1");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active1");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>			
+		</body>
+	</html>
